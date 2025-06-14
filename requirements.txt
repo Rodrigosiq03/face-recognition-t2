@@ -1,21 +1,15 @@
-# face_recognition
-# torch
-# torchvision
-# numpy
-# Pillow
-# opencv-python
+torch==2.2.2
+torchvision==0.17.2
 
+facenet-pytorch==2.5.2
 
-# DL & inferência
-torch>=2.1.0           # escolha a versão compatível com sua GPU/CUDA; CPU também funciona
-torchvision>=0.16
-# YOLOv5 (repositório Ultralytics + dependências)
-ultralytics==8.2.20    # pacote oficial que já inclui lógica de treino
-# Face recognition
-face_recognition==1.3.0
-# Utilidades
-opencv-python
-numpy
-tqdm
-pillow
-requests               # usado p/ download direto
+opencv-python==4.8.1.78
+numpy==1.26.4
+pillow==10.3.0
+tqdm==4.67.1
+requests>=2.31.0
+
+matplotlib>=3.2.2
+pandas>=1.1.4
+seaborn>=0.11.0
+PyYAML>=5.3.1
